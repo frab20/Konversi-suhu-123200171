@@ -58,13 +58,13 @@ public class Main {
     } 
     
     static void tampil(Konversi data){
-        System.out.println("Suhu dalam Celcius\t: " + data.celcius);
+        System.out.println("Suhu dalam Celcius\t: " + data.celcius + " C");
         data.fahrenheit();
-        System.out.println("Suhu dalam Fahrenheit\t: " + data.fahrenheit);
+        System.out.println("Suhu dalam Fahrenheit\t: " + data.fahrenheit + " F");
         data.reamur();
-        System.out.println("Suhu dalam Reamur\t: " + data.reamur);
+        System.out.println("Suhu dalam Reamur\t: " + data.reamur + " R");
         data.kelvin();
-        System.out.println("Suhu dalam Kelvin\t: " + data.kelvin);
+        System.out.println("Suhu dalam Kelvin\t: " + data.kelvin + " K");
         data.cek_air();
     }
         

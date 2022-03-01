@@ -25,7 +25,7 @@ public class Konversi {
     }
     
     void kelvin(){
-        kelvin = (4 * celcius)/5;
+        kelvin = celcius + 273.15;
     }
     
     void cek_air(){
